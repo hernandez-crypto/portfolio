@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.9309ee46.chunk.css",
+    "main.js": "/portfolio/static/js/main.8818c240.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8818c240.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.021c856b.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.021c856b.js.map",
+    "static/js/2.bcfad818.chunk.js": "/portfolio/static/js/2.bcfad818.chunk.js",
+    "static/js/2.bcfad818.chunk.js.map": "/portfolio/static/js/2.bcfad818.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.d9f370f175f3177173610f66a5493e9c.js": "/portfolio/precache-manifest.d9f370f175f3177173610f66a5493e9c.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.9309ee46.chunk.css.map": "/portfolio/static/css/main.9309ee46.chunk.css.map",
+    "static/media/SpacedRep.png": "/portfolio/static/media/SpacedRep.e0add6d5.png",
+    "static/media/The Office Quiz.png": "/portfolio/static/media/The Office Quiz.e6c6337e.png",
+    "static/media/bookmarker.png": "/portfolio/static/media/bookmarker.97447636.png",
+    "static/media/code.svg": "/portfolio/static/media/code.76d344f0.svg",
+    "static/media/email.svg": "/portfolio/static/media/email.595ce2f3.svg",
+    "static/media/email1.svg": "/portfolio/static/media/email1.57f85643.svg",
+    "static/media/github1.svg": "/portfolio/static/media/github1.364b6f4a.svg",
+    "static/media/home.svg": "/portfolio/static/media/home.aeaf2615.svg",
+    "static/media/identification.svg": "/portfolio/static/media/identification.2044f92f.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.9e36c8fd.svg",
+    "static/media/linkedin1.svg": "/portfolio/static/media/linkedin1.4b9d6707.svg",
+    "static/media/liveList.png": "/portfolio/static/media/liveList.684f8168.png",
+    "static/media/livesite.jpg": "/portfolio/static/media/livesite.f362f9c2.jpg",
+    "static/media/particles.mp4": "/portfolio/static/media/particles.e1e22107.mp4",
+    "static/media/phone.png": "/portfolio/static/media/phone.4f13404a.png",
+    "static/media/phone1.jpg": "/portfolio/static/media/phone1.38469b6a.jpg",
+    "static/media/ticTacToe.png": "/portfolio/static/media/ticTacToe.ea9e0a9b.png",
+    "static/media/web-programming.svg": "/portfolio/static/media/web-programming.02fc4612.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.021c856b.js",
+    "static/js/2.bcfad818.chunk.js",
+    "static/css/main.9309ee46.chunk.css",
+    "static/js/main.8818c240.chunk.js"
+  ]
+}
