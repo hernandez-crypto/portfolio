@@ -19,7 +19,7 @@ export class Bio extends Component {
             problems. I love growing and I’d love if you gave me the opportunity
             to grow with you! I am actively seeking a position as a fulltime web
             developer, if you are interested in contacting me - below is my info
-            !
+            ! I am willing to relocate.
           </p>
         </div>
       </section>
