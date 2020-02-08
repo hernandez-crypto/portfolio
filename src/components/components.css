@@ -16,7 +16,12 @@ h5 {
 }
 p {
   font-family: 'Muli', sans-serif;
+  text-align: left;
 }
+.bioSpace {
+  margin-top: 25px;
+}
+
 video::-webkit-media-controls-start-playback-button {
   display: none !important;
   -webkit-appearance: none;
@@ -69,7 +74,7 @@ video::-webkit-media-controls-start-playback-button {
   padding: 2px 15px;
 }
 .picStyles {
-  width: 50vw;
+  width: 70%;
   max-width: 250px;
   border: solid #301934 2px;
   border-radius: 5px;

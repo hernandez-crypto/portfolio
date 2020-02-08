@@ -4,9 +4,9 @@ const projectList = [
     name: 'Tic-Tac-Toe',
     description: (
       <p>
-        Fullstack app for Tic-Tac-Toe. Features AI / Multiplayer. I learned the
-        minimax algorithm while developing this app. I bet you can't beat the
-        bot on hard mode :)
+        This is a fullstack app for tic-tac-toe which also features AI /
+        Multiplayer. I learned the minimax algorithm while developing this app.
+        I also
       </p>
     ),
     stack: (
@@ -73,8 +73,9 @@ const projectList = [
       </div>
     ),
     imageLink: './images/SpacedRep.png',
-    liveSite: 'https://thinkful-ei-heron.github.io/julio-bookmark-v2/',
-    codeURL: 'https://github.com/thinkful-ei-heron/julio-bookmark-v2',
+    liveSite: 'https://spaced-repetition-julio-shannon-client.now.sh/',
+    codeURL:
+      'https://github.com/thinkful-ei-heron/spaced-repetition-Julio-Shannon-client',
   },
   {
     name: 'Bookmarker 9000',
@@ -98,12 +99,33 @@ const projectList = [
     codeURL: 'https://github.com/thinkful-ei-heron/julio-bookmark-v2',
   },
   {
+    name: 'Waitstaff Calculator',
+    description: (
+      <p>
+        This is a static web app that was used to learn about React state
+        management. Responsive web design was also practiced in the development
+        of this app through the use of flexbox.
+      </p>
+    ),
+    stack: (
+      <div>
+        <i className='devicon-html5-plain colored' />
+        <i className='devicon-css3-plain colored' />
+        <i className='devicon-javascript-plain colored' />
+        <i className='devicon-jquery-plain colored' />
+      </div>
+    ),
+    imageLink: './images/The Office Quiz.png',
+    liveSite: 'https://thinkful-ei-heron.github.io/q-app-julio-wesley/',
+    codeURL: 'https://github.com/thinkful-ei-heron/q-app-julio-wesley',
+  },
+  {
     name: 'The Office Quiz',
     description: (
       <p>
-        This app is a short run quiz that tests your knowledge on the show The
-        Office. It was built to learn app architecture. Developed with a partner
-        :{' '}
+        This app is a short quiz that tests your knowledge on the show The
+        Office. It was built to learn app architecture and React state
+        management. Developed with a partner :{' '}
         <a
           href='https://github.com/wjacobs71086'
           target='_blank'
