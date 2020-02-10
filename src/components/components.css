@@ -22,10 +22,6 @@ p {
   margin-top: 25px;
 }
 
-video::-webkit-media-controls-start-playback-button {
-  display: none !important;
-  -webkit-appearance: none;
-}
 .sectionStyles {
   background-color: white;
   text-align: center;
@@ -57,7 +53,6 @@ video::-webkit-media-controls-start-playback-button {
   line-height: 2;
   border: 1.5px solid;
   border-radius: 2px;
-  margin: 20px auto;
   max-width: 350px;
 }
 .iconStyles {
@@ -70,7 +65,7 @@ video::-webkit-media-controls-start-playback-button {
 .projectsIcons {
   width: 5vw;
   min-width: 60px;
-  max-width: 65px;
+  max-width: 80px;
   padding: 2px 15px;
 }
 .picStyles {
