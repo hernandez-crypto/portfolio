@@ -15,3 +15,28 @@ video::-webkit-media-controls-start-playback-button {
   display: none !important;
   -webkit-appearance: none;
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Roboto Mono', monospace;
+  color: black;
+}
+h5 {
+  font-size: 4px;
+}
+p {
+  font-family: 'Muli', sans-serif;
+  text-align: left;
+}
+.sectionStyles {
+  background-color: white;
+  text-align: center;
+  margin: 0.2px auto;
+}

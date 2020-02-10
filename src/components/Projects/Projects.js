@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import projectList from './ProjectList';
+import './Projects.css';
 export class Projects extends Component {
   generateTechStack(arr) {
     return arr.map((item) => <i className={`devicon-${item}-plain colored`} />);
