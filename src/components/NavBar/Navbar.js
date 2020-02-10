@@ -28,7 +28,7 @@ export class Navbar extends Component {
             <li style={listStyles}>
               <a href='#prolst'>
                 <img
-                  src={require('./images/web-programming.svg')}
+                  src={require('../images/icons/web-programming.svg')}
                   alt='Projects'
                   className='nav-icon'
                   style={iconStyles}
@@ -38,7 +38,7 @@ export class Navbar extends Component {
             <li style={listStyles}>
               <a href='#landing'>
                 <img
-                  src={require('./images/home.svg')}
+                  src={require('../images/icons/home.svg')}
                   alt='Home'
                   className='nav-icon'
                   style={iconStyles}
@@ -48,7 +48,7 @@ export class Navbar extends Component {
             <li style={listStyles}>
               <a href='#contact'>
                 <img
-                  src={require('./images/identification.svg')}
+                  src={require('../images/icons/identification.svg')}
                   alt='Contact'
                   className='nav-icon'
                   style={iconStyles}

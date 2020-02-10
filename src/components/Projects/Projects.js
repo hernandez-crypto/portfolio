@@ -22,7 +22,7 @@ export class Projects extends Component {
               <div key={name} className='projectItemStyles'>
                 <h3>{name}</h3>
                 <img
-                  src={require(`${imageLink}`)}
+                  src={require('../images/projects/placeholder.jpg')}
                   alt={name}
                   className='picStyles'
                 />
@@ -31,14 +31,14 @@ export class Projects extends Component {
                 <h4>Links</h4>
                 <a href={liveSite} target='_blank' rel='noopener noreferrer'>
                   <img
-                    src={require('./images/livesite.jpg')}
+                    src={require('../images/icons/livesite.jpg')}
                     alt='Live Site'
                     className='projectsIcons'
                   />
                 </a>
                 <a href={liveSite} target='_blank' rel='noopener noreferrer'>
                   <img
-                    src={require('./images/serverIcon.png')}
+                    src={require('../images/icons/server.png')}
                     alt='Live Site'
                     className='projectsIcons'
                   />
@@ -50,7 +50,7 @@ export class Projects extends Component {
                   className='site project'
                 >
                   <img
-                    src={require('./images/code.svg')}
+                    src={require('../images/icons/code.svg')}
                     alt='Code Site'
                     className='projectsIcons'
                   />

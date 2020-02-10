@@ -8,7 +8,7 @@ const projectList = [
         
       `,
     stack: ['react', 'css3', 'javascript', 'nodejs', 'heroku', 'postgresql'],
-    imageLink: './images/ticTacToe.png',
+    imageLink: '../images/projects/placeholder.jpg',
     liveSite: 'https://ttt-client.hernandezjulio58.now.sh/',
     codeURL: 'https://github.com/hernandez-crypto/ttt-client',
   },

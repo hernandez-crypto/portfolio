@@ -7,7 +7,7 @@ export class Contact extends Component {
         <div className='itemStyles'>
           <a href='tel:3312459841'>
             <img
-              src={require('../images/phone.png')}
+              src={require('../images/icons/phone.png')}
               alt='phoneIcon'
               className='phone iconStyles'
             />
@@ -18,7 +18,7 @@ export class Contact extends Component {
             rel='noopener noreferrer'
           >
             <img
-              src={require('../images/code.svg')}
+              src={require('../images/icons/code.svg')}
               alt='gitHubIcon'
               className='iconStyles'
             />
@@ -29,7 +29,7 @@ export class Contact extends Component {
             rel='noopener noreferrer'
           >
             <img
-              src={require('../images/linkedin.svg')}
+              src={require('../images/icons/linkedin.svg')}
               alt='linkedInIcon'
               className='iconStyles'
             />
@@ -40,7 +40,7 @@ export class Contact extends Component {
             rel='noopener noreferrer'
           >
             <img
-              src={require('../images/email.svg')}
+              src={require('../images/icons/email.svg')}
               alt='emailIcon'
               className='iconStyles'
             />
