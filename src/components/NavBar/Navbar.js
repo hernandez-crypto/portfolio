@@ -1,15 +1,6 @@
 import React, { Component } from 'react';
-const navStyles = {
-  backgroundColor: 'rgba(1,1,1,.85)',
-  position: 'fixed',
-  padding: '.5% 0',
-  top: '0',
-  left: '0',
-  right: '0',
-  zIndex: '10',
-  display: 'flex',
-  justifyContent: 'center',
-};
+import './Navbar.css';
+
 const iconStyles = {
   width: '5vw',
   maxWidth: '37px',
@@ -23,35 +14,32 @@ export class Navbar extends Component {
   render() {
     return (
       <section className='top-nav-bar'>
-        <nav style={navStyles}>
+        <nav>
           <ul className='nav-bar-items'>
-            <li style={listStyles}>
+            <li>
               <a href='#projectList'>
                 <img
                   src={require('../images/icons/web-programming.svg')}
                   alt='Projects'
                   className='nav-icon'
-                  style={iconStyles}
                 />
               </a>
             </li>
-            <li style={listStyles}>
+            <li>
               <a href='#landing'>
                 <img
                   src={require('../images/icons/home.svg')}
                   alt='Home'
                   className='nav-icon'
-                  style={iconStyles}
                 />
               </a>
             </li>
-            <li style={listStyles}>
+            <li>
               <a href='#contact'>
                 <img
                   src={require('../images/icons/identification.svg')}
                   alt='Contact'
                   className='nav-icon'
-                  style={iconStyles}
                 />
               </a>
             </li>

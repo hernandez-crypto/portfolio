@@ -17,18 +17,17 @@ const projectList = [
       'heroku-plain',
       'postgresql-plain',
     ],
-    imageLink: 'placeholder.jpg',
+    imageLink: 'ticTacToe.png',
     liveSite: 'https://ttt-client.hernandezjulio58.now.sh/',
-    codeURL: 'https://github.com/hernandez-crypto/ttt-client',
+    clientURL: 'https://github.com/hernandez-crypto/ttt-client',
+    serverURL: 'https://github.com/hernandez-crypto/ttt-server',
   },
   {
     name: 'Live List',
     description: ` 
-      
-        Mobile app developed with 4 other developers. Utilizes Google Maps API.
-        Live List is an app to find cool and interesting new places to go. My
-        GitHub skills were strenghtened during the development of this app.
-      
+        Mobile app developed with 4 other developers. I mainly worked on testing 
+        for the front and back end, but I also assisted with styling and hooking 
+        up some endpoints. 
     `,
     stack: [
       'react-plain',
@@ -41,7 +40,8 @@ const projectList = [
     ],
     imageLink: 'placeholder.jpg',
     liveSite: 'https://social-playlist.netlify.com/',
-    codeURL: 'https://github.com/thinkful-ei-heron/SocialPlaylist-Client',
+    clientURL: 'https://github.com/thinkful-ei-heron/SocialPlaylist-Client',
+    serverURL: 'https://github.com/thinkful-ei-heron/SocialPlaylist-server',
   },
   {
     name: 'Spaced Repetition',
@@ -49,8 +49,8 @@ const projectList = [
       <p>
         This app was build with the goal of assisted learning by utliziting a
         technique called spaced repetition. After users have signed up, quizzing
-        oneself results in the database storing itself differently. Developed
-        with a partner :
+        oneself results in the database sorting itself differently. Developed
+        with a partner :{' '}
         <a
           href='https://github.com/shannon-lichtenwalter'
           target='_blank'
@@ -70,32 +70,12 @@ const projectList = [
       'heroku-plain',
       'postgresql-plain',
     ],
-    imageLink: 'placeholder.jpg',
+    imageLink: 'spacedRepetition.png',
     liveSite: 'https://spaced-repetition-julio-shannon-client.now.sh/',
-    codeURL:
+    clientURL:
       'https://github.com/thinkful-ei-heron/spaced-repetition-Julio-Shannon-client',
-  },
-  {
-    name: 'Bookmarker 9000',
-    description: `
-      
-        Web App used to store URLs. First project made using jQuery and HTML5.
-        This project helped me develop a solid comprehension of HTML5 which
-        translated intuitively into React.
-      
-    `,
-    stack: [
-      'html5-plain',
-      'css3-plain',
-      'javascript-plain',
-      'express-original',
-      'nodejs-plain',
-      'heroku-plain',
-      'postgresql-plain',
-    ],
-    imageLink: 'placeholder.jpg',
-    liveSite: 'https://thinkful-ei-heron.github.io/julio-bookmark-v2/',
-    codeURL: 'https://github.com/thinkful-ei-heron/julio-bookmark-v2',
+    serverURL:
+      'https://github.com/thinkful-ei-heron/spaced-repetition-Julio-Shannon-server',
   },
   {
     name: 'Waitstaff Calculator',
@@ -109,7 +89,30 @@ const projectList = [
     stack: ['react-plain', 'css3-plain', 'javascript-plain'],
     imageLink: 'placeholder.jpg',
     liveSite: 'https://thinkful-ei-heron.github.io/q-app-julio-wesley/',
-    codeURL: 'https://github.com/thinkful-ei-heron/q-app-julio-wesley',
+    clientURL: 'https://github.com/thinkful-ei-heron/q-app-julio-wesley',
+  },
+  {
+    name: 'Bookmarker 9000',
+    description: `
+      
+        Web App used to store URLs. First project made using jQuery and HTML5.
+        This project helped me develop a solid comprehension of HTML5, which 
+        translated into a solid foundation for React.
+      
+    `,
+    stack: [
+      'html5-plain',
+      'css3-plain',
+      'javascript-plain',
+      'express-original',
+      'nodejs-plain',
+      'heroku-plain',
+      'postgresql-plain',
+    ],
+    imageLink: 'placeholder.jpg',
+    liveSite: 'https://thinkful-ei-heron.github.io/julio-bookmark-v2/',
+    clientURL: 'https://github.com/thinkful-ei-heron/julio-bookmark-v2',
+    serverURL: 'https://github.com/hernandez-crypto/ttt-server',
   },
   {
     name: 'The Office Quiz',
@@ -117,7 +120,7 @@ const projectList = [
       <p>
         This app is a short quiz that tests your knowledge on the show The
         Office. It was built to learn app architecture and React state
-        management. Developed with a partner :
+        management. Developed with a partner :{' '}
         <a
           href='https://github.com/wjacobs71086'
           target='_blank'
@@ -131,7 +134,7 @@ const projectList = [
     stack: ['html5-plain', 'css3-plain', 'javascript-plain'],
     imageLink: 'placeholder.jpg',
     liveSite: 'https://thinkful-ei-heron.github.io/q-app-julio-wesley/',
-    codeURL: 'https://github.com/thinkful-ei-heron/q-app-julio-wesley',
+    clientURL: 'https://github.com/thinkful-ei-heron/q-app-julio-wesley',
   },
 ];
 export default projectList;

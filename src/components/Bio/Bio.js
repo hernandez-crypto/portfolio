@@ -25,7 +25,7 @@ export class Bio extends Component {
             forth then that problem will be solved, and I will gain experience
             during the process. The tech industry also attracts many intelligent
             people, which I think is great because it provides an opportunity
-            for learning with dedicated and passionate people.
+            for learning from some of the worlds smartest people.
           </p>
         </div>
       </section>

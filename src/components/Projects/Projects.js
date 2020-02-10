@@ -21,7 +21,8 @@ export class Projects extends Component {
               imageLink,
               stack,
               liveSite,
-              codeURL,
+              clientURL,
+              serverURL,
               description,
             } = item;
             return (
@@ -42,18 +43,28 @@ export class Projects extends Component {
                     Live Site
                   </a>
                   <p>|</p>
-                  <a href={liveSite} target='_blank' rel='noopener noreferrer'>
-                    Server Repo
-                  </a>
-                  <p>|</p>
                   <a
-                    href={codeURL}
+                    href={clientURL}
                     target='_blank'
                     rel='noopener noreferrer'
                     className='site project'
                   >
                     Client Repo
                   </a>
+                  {serverURL ? (
+                    <>
+                      <p>|</p>
+                      <a
+                        href={liveSite}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
+                        Server Repo
+                      </a>
+                    </>
+                  ) : (
+                    () => {}
+                  )}
                 </div>
               </div>
             );

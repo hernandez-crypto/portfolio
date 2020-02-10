@@ -1,0 +1,20 @@
+.top-nav-bar nav {
+  background-color: rgba(1, 1, 1, 0.85);
+  position: fixed;
+  padding: 0.5% 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+.nav-bar-items li {
+  display: inline-block;
+  padding: 2.5px 8vw;
+}
+.nav-bar-items img {
+  width: 5vw;
+  max-width: 37px;
+  min-width: 35px;
+}

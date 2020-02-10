@@ -8,7 +8,7 @@ export class Landing extends Component {
       <section id='landing'>
         <header role='banner'>
           <h1>Julio Hernandez</h1>
-          <h2>Software Developer</h2>
+          <h2>Software Engineer</h2>
         </header>
         <LandingVideo />
       </section>

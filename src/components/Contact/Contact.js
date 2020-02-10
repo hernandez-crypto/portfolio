@@ -5,7 +5,7 @@ export class Contact extends Component {
     return (
       <section id='contact' className='sectionStyles'>
         <h2>Contact Me</h2>
-        <div className='contactStyles'>
+        <div className='contactStyles itemStyles'>
           <a href='tel:3312459841' className='phone'>
             <img
               src={require('../images/icons/phone.png')}

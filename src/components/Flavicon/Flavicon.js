@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Flavicon.css';
 export class Flavicon extends Component {
   render() {
     return (

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Esteban|Montserrat&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -25,23 +26,28 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Montserrat', sans-serif;
   color: black;
 }
 h5 {
   font-size: 4px;
 }
 p {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Esteban', serif;
   text-align: left;
 }
 a {
   color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(40, 12, 139);
+  font-weight: 700;
 }
 .sectionStyles {
   background-color: white;
   text-align: center;
-  margin: 0.2px auto;
+  margin: 0 auto;
 }
 .itemStyles {
   background-color: white;
@@ -49,17 +55,14 @@ a {
   line-height: 2.3;
   border: 2px solid white;
   border-radius: 5px;
-  margin: 0.2px auto;
+  margin: 0 auto;
   max-width: 1100px;
 }
-.flavicon {
-  font-size: 2rem;
-}
 .sectionStyles h2 {
-  padding: 10px;
+  padding: 15px;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 500px) {
   .phone {
     display: none;
   }
