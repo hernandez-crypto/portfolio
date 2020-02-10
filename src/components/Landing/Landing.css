@@ -1,0 +1,16 @@
+#landing header {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+  justify-content: center;
+  padding: 30vh 0;
+}
+section#landing {
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}

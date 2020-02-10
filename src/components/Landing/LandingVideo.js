@@ -20,7 +20,6 @@ class LandingVideo extends Component {
         height='100%'
         loop
         autoPlay
-        playsinline
         playsInline
       >
         <source src={require('../video/particles.mp4')} type='video/mp4' />

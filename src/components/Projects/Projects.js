@@ -3,7 +3,12 @@ import projectList from './ProjectList';
 import './Projects.css';
 export class Projects extends Component {
   generateTechStack(arr) {
-    return arr.map((item) => <i className={`devicon-${item}-plain colored`} />);
+    return arr.map((icon) => (
+      <i key={icon} id='devicon' className={`devicon-${icon} colored`} />
+    ));
+
+    // <i key={item} id='devicon' className={`devicon-${item}-original colored`} />
+    // <i key={item} id='devicon' className={`devicon-${item}-plain colored`} />
   }
   render() {
     return (
@@ -23,39 +28,33 @@ export class Projects extends Component {
               <div key={name} className='projectItemStyles'>
                 <h3>{name}</h3>
                 <img
-                  src={require('../images/projects/placeholder.jpg')}
+                  src={require(`../images/projects/${imageLink}`)}
                   alt={name}
                   className='picStyles'
                 />
                 <p>{description}</p>
-                {this.generateTechStack(stack)}
+                <div className='deviconContainer'>
+                  {this.generateTechStack(stack)}
+                </div>
                 <h4>Links</h4>
-                <a href={liveSite} target='_blank' rel='noopener noreferrer'>
-                  <img
-                    src={require('../images/icons/livesite.jpg')}
-                    alt='Live Site'
-                    className='projectsIcons'
-                  />
-                </a>
-                <a href={liveSite} target='_blank' rel='noopener noreferrer'>
-                  <img
-                    src={require('../images/icons/server.png')}
-                    alt='Live Site'
-                    className='projectsIcons'
-                  />
-                </a>
-                <a
-                  href={codeURL}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='site project'
-                >
-                  <img
-                    src={require('../images/icons/code.svg')}
-                    alt='Code Site'
-                    className='projectsIcons'
-                  />
-                </a>
+                <div className='linksContainer'>
+                  <a href={liveSite} target='_blank' rel='noopener noreferrer'>
+                    Live Site
+                  </a>
+                  <p>|</p>
+                  <a href={liveSite} target='_blank' rel='noopener noreferrer'>
+                    Server Repo
+                  </a>
+                  <p>|</p>
+                  <a
+                    href={codeURL}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='site project'
+                  >
+                    Client Repo
+                  </a>
+                </div>
               </div>
             );
           })}

@@ -26,7 +26,7 @@ export class Navbar extends Component {
         <nav style={navStyles}>
           <ul className='nav-bar-items'>
             <li style={listStyles}>
-              <a href='#prolst'>
+              <a href='#projectList'>
                 <img
                   src={require('../images/icons/web-programming.svg')}
                   alt='Projects'

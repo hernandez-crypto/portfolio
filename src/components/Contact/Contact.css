@@ -4,3 +4,7 @@
   min-width: 30px;
   margin: 5px 8px;
 }
+.contactStyles {
+  display: flex;
+  justify-content: space-evenly;
+}

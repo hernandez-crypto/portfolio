@@ -1,5 +1,43 @@
+#devicon {
+  font-size: 21px;
+  padding: 0 5px;
+}
 .projectsIcons {
   width: 5vw;
   min-width: 60px;
-  max-width: 80px;
+  max-width: 70px;
+}
+.projectItemStyles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  line-height: 2;
+  border: 1.5px solid;
+  border-radius: 2px;
+  max-width: 370px;
+  margin: 5px;
+}
+.projectItemStyles img {
+  align-self: center;
+}
+.projectItemStyles h3 {
+  font-size: 1.5rem;
+}
+.projectStyles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.picStyles {
+  width: 90%;
+  max-width: 250px;
+  border: solid #301934 2px;
+  border-radius: 5px;
+}
+.linksContainer {
+  display: flex;
+  justify-content: space-evenly;
 }

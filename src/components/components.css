@@ -17,49 +17,8 @@
   margin: 0 auto;
   max-width: 1200px;
 }
-.projectItemStyles {
-  background-color: white;
-  color: black;
-  padding: 10px 15px;
-  line-height: 2;
-  border: 1.5px solid;
-  border-radius: 2px;
-  max-width: 350px;
-}
-.picStyles {
-  width: 70%;
-  max-width: 250px;
-  border: solid #301934 2px;
-  border-radius: 5px;
-}
-a {
-  color: black;
-}
-i {
-  width: 10vw;
-  min-width: 80px;
-  max-width: 150px;
-  padding: 2px 10px;
-}
-h1 {
-  font-size: 40px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 30px;
-}
-h5 {
-  font-size: 12px;
-}
-hr {
-  border: 1px solid black;
-}
+
 @media screen and (min-width: 750px) {
-  .phone {
-    display: none;
-  }
   .projectStyles {
     display: flex;
     flex-wrap: wrap;

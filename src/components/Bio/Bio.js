@@ -27,12 +27,6 @@ export class Bio extends Component {
             people, which I think is great because it provides an opportunity
             for learning with dedicated and passionate people.
           </p>
-          <div className='bioSpace' />
-          <p>
-            I'm looking to work on a team of intelligent and innovative
-            developers. Contact me through LinkedIn or email to see if we would
-            be a good fit.
-          </p>
         </div>
       </section>
     );
