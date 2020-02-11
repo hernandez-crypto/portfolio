@@ -22,6 +22,9 @@
 }
 .projectItemStyles img {
   align-self: center;
+  overflow: hidden;
+
+  max-height: 300px;
 }
 .projectItemStyles h3 {
   font-size: 1.5rem;

@@ -59,7 +59,8 @@ a:hover {
   max-width: 1100px;
 }
 .sectionStyles h2 {
-  padding: 15px;
+  font-size: 2rem;
+  padding: 20px;
 }
 
 @media screen and (min-width: 500px) {

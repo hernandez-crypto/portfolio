@@ -6,9 +6,6 @@ export class Projects extends Component {
     return arr.map((icon) => (
       <i key={icon} id='devicon' className={`devicon-${icon} colored`} />
     ));
-
-    // <i key={item} id='devicon' className={`devicon-${item}-original colored`} />
-    // <i key={item} id='devicon' className={`devicon-${item}-plain colored`} />
   }
   render() {
     return (
@@ -55,7 +52,7 @@ export class Projects extends Component {
                     <>
                       <p>|</p>
                       <a
-                        href={liveSite}
+                        href={serverURL}
                         target='_blank'
                         rel='noopener noreferrer'
                       >
