@@ -35,7 +35,7 @@ const projectList = [
   {
     name: 'Live List',
     description: ` 
-        Mobile app developed with 4 other developers. I mainly worked on testing 
+        This is a mobile app developed with 4 other developers. I mainly worked on testing 
         for the front and back end, but I also assisted with styling and hooking 
         up some endpoints. I also was introduced to Cypress during this project in
         a TDD environment.
@@ -92,7 +92,7 @@ const projectList = [
     name: 'Bookmarker 9000',
     description: `
       
-        Web App used to store URLs. First project made using jQuery and HTML5.
+        This is a web app used to store URLs. First project made using jQuery and HTML5.
         This project helped me develop a solid comprehension of HTML5, which 
         translated into a solid foundation for React. My first API was built for this app
         which introduced RESTful patterns.
