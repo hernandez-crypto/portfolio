@@ -1,15 +1,6 @@
 import React, { Component } from 'react';
 import './Navbar.css';
 
-const iconStyles = {
-  width: '5vw',
-  maxWidth: '37px',
-  minWidth: '35px',
-};
-const listStyles = {
-  display: 'inline-block',
-  padding: '2.5px 8vw',
-};
 export class Navbar extends Component {
   render() {
     return (

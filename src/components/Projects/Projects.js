@@ -30,7 +30,7 @@ export class Projects extends Component {
                   alt={name}
                   className='picStyles'
                 />
-                <p>{description}</p>
+                <div className='projectDescription'>{description}</div>
                 <div className='deviconContainer'>
                   {this.generateTechStack(stack)}
                 </div>

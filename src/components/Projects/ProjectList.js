@@ -34,12 +34,14 @@ const projectList = [
   },
   {
     name: 'Live List',
-    description: ` 
-        This is a mobile app developed with 4 other developers. I mainly worked on testing 
-        for the front and back end, but I also assisted with styling and hooking 
-        up some endpoints. I also was introduced to Cypress during this project in
-        a TDD environment.
-    `,
+    description: (
+      <p>
+        This is a mobile app developed with 4 other developers. I mainly worked
+        on testing for the front and back end, but I also assisted with styling
+        and hooking up some endpoints. I also was introduced to Cypress during
+        this project in a TDD environment.
+      </p>
+    ),
     stack: [
       'react-plain',
       'css3-plain',
@@ -90,14 +92,14 @@ const projectList = [
   },
   {
     name: 'Bookmarker 9000',
-    description: `
-      
-        This is a web app used to store URLs. First project made using jQuery and HTML5.
-        This project helped me develop a solid comprehension of HTML5, which 
-        translated into a solid foundation for React. My first API was built for this app
-        which introduced RESTful patterns.
-      
-    `,
+    description: (
+      <p>
+        This is a web app used to store URLs. First project made using jQuery
+        and HTML5. This project helped me develop a solid comprehension of
+        HTML5, which translated into a solid foundation for React. My first API
+        was built for this app which introduced RESTful patterns.
+      </p>
+    ),
     stack: [
       'html5-plain',
       'css3-plain',

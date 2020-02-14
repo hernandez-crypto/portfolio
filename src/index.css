@@ -68,3 +68,10 @@ a:hover {
     display: none;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .projectItemStyles {
+    border-color: white;
+    margin: 0;
+  }
+}
