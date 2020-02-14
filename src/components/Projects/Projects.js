@@ -7,6 +7,9 @@ export class Projects extends Component {
       <i key={icon} id='devicon' className={`devicon-${icon} colored`} />
     ));
   }
+
+  generateProjectItems = () => {};
+
   render() {
     return (
       <section id='projectList' className='sectionStyles'>
@@ -60,7 +63,7 @@ export class Projects extends Component {
                       </a>
                     </>
                   ) : (
-                    () => {}
+                    <div className='emptyDbv'></div>
                   )}
                 </div>
               </div>
