@@ -14,3 +14,31 @@ section#landing {
   height: 100vh;
   position: relative;
 }
+
+header h1,
+header h2 {
+  font-size: 2rem;
+}
+#background-video {
+  filter: invert(100%) brightness(110%) saturate(5%);
+  object-fit: cover;
+  background-size: 100% 100%;
+}
+.landingStyles {
+  position: fixed;
+  z-index: -100;
+  bottom: 0;
+  right: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#staticLanding {
+  background-image: url('../images/landing/mountainsLanding.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

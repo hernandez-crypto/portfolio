@@ -1,21 +1,12 @@
 import React, { Component } from 'react';
-const sectionStyle = {
-  position: 'fixed',
-  zIndex: '-100',
-  bottom: '0',
-  right: '0',
-  minWidth: '100vw',
-  minHeight: '100vh',
-  objectFit: 'cover',
-  backgroundSize: '100% 100%',
-  filter: 'invert(100%) brightness(110%) saturate(5%)',
-};
+import './Landing.css';
+
 class LandingVideo extends Component {
   render() {
     return (
       <video
         id='background-video'
-        style={sectionStyle}
+        className='landingStyles'
         width='100%'
         height='100%'
         loop
