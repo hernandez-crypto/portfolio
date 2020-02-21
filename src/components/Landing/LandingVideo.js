@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Landing.css';
-
+// Currently not using this component - saving as an option
 class LandingVideo extends Component {
   render() {
     return (

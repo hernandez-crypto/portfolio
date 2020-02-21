@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import LandingVideo from './LandingVideo';
 import LandingPicture from './LandingPicture';
 import './Landing.css';
 
@@ -12,7 +11,7 @@ export class Landing extends Component {
           <h1>Julio Hernandez</h1>
           <h2>Software Engineer</h2>
         </header>
-        {this.state.style === 'video' ? <LandingVideo /> : <LandingPicture />}
+        <LandingPicture />
       </section>
     );
   }

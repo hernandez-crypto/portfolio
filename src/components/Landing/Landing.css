@@ -1,4 +1,19 @@
-#landing header {
+#landing {
+  padding-top: 30vh;
+}
+
+section#landing {
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+header {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  background-color: rgba(128, 128, 128, 0.6);
+  margin: 0 auto;
   color: white;
   display: flex;
   flex-direction: column;
@@ -6,24 +21,17 @@
   text-align: center;
   vertical-align: center;
   justify-content: center;
-  padding: 30vh 0;
 }
-section#landing {
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-}
-
 header h1,
 header h2 {
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: 'Roboto';
+  color: white;
 }
 header h1 {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 header h2 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 #background-video {
   filter: invert(100%) brightness(110%) saturate(5%);
@@ -45,7 +53,7 @@ header h2 {
 }
 
 #staticLanding {
-  background-image: url('../images/landing/mountainsLanding.jpg');
+  background-image: url('../images/landing/birdsEye.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
