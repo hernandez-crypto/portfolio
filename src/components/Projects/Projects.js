@@ -62,9 +62,7 @@ export class Projects extends Component {
                         Server Repo
                       </a>
                     </>
-                  ) : (
-                    <div className='emptyDbv'></div>
-                  )}
+                  ) : null}
                 </div>
               </div>
             );
