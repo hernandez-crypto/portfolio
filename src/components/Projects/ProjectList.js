@@ -116,13 +116,13 @@ const projectList = [
   },
   {
     name: 'Waitstaff Calculator',
-    description: `
-      
+    description: (
+      <p>
         This is a static web app that was used to learn about React state
-        management. During development, flexbox and React lifecycle was 
-        learned in order to deliver the assignment efficiently.
-      
-    `,
+        management. During development, flexbox and React lifecycle was learned
+        in order to deliver the assignment efficiently.
+      </p>
+    ),
     stack: ['react-plain', 'css3-plain', 'javascript-plain'],
     imageLink: 'waitStaffCalc.png',
     liveSite: 'https://hernandez-crypto.github.io/waitstaff-calculator/',
