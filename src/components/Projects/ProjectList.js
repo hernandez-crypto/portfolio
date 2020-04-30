@@ -36,10 +36,10 @@ const projectList = [
     name: 'Live List',
     description: (
       <p>
-        This is a mobile app developed with 4 other developers. I mainly worked
-        on testing for the front and back end, but I also assisted with styling
-        and hooking up some endpoints. I also was introduced to Cypress during
-        this project in a TDD environment.
+        This is a mobile app created with 4 other developers. I mainly worked on
+        testing for the front and back end, but I also assisted with styling and
+        hooking up some endpoints. I was introduced to Cypress during this
+        project in a TDD environment.
       </p>
     ),
     stack: [
