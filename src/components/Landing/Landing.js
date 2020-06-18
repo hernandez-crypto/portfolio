@@ -28,7 +28,7 @@ export default function Landing() {
     <section id='landing'>
       <header role='banner'>
         <h1>Julio Hernandez</h1>
-        <h2>Software Engineer</h2>
+        <h2>Full-Stack SWE</h2>
       </header>
       <LandingContent type='video' />
     </section>
